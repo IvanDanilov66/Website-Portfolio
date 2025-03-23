@@ -32,7 +32,7 @@ export default function Expertise(){
             <p className="text-xs lg:text-sm text-gray-500 font-semibold pb-3">My skills</p>
             <h1 className="text-4xl tracking-tight font-bold mb-8">My Expertise</h1>
             </div>
-            <div className="flex flex-col lg:flex-row justify-evenly items-center gap-10">
+            <div className="flex flex-col lg:flex-row justify-evenly items-center lg:items-stretch gap-10">
                 {skills.map((skill, index) => (
                     <Card key={index} {...skill}  />
                 ))}
