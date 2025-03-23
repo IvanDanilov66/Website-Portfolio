@@ -59,9 +59,11 @@ export default function Hero() {
                     Let's build something amazing together!
                 </p>
                 <div className="mt-6">
-                    <button className="bg-purple-400 text-white px-6 py-2 rounded-lg hover:bg-purple-500">
-                        My Portfolio
-                    </button>
+                    <a href="../assets/Ivan.pdf" download="IvanDanilov.pdf">
+                        <button className="bg-purple-400 text-white px-6 py-2 rounded-lg hover:bg-purple-500">
+                            My Portfolio
+                        </button>
+                    </a>
                 </div>
             </div>
 

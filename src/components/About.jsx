@@ -4,7 +4,6 @@ export default function AboutMe() {
     return (
         <div className="flex flex-col lg:flex-row items-center px-6 md:px-12 lg:px-20 py-20 space-y-10 lg:space-y-0">
 
-            {/* Image Container */}
             <div className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 flex justify-center">
                 <img
                     src={about}
@@ -13,7 +12,6 @@ export default function AboutMe() {
                 />
             </div>
 
-            {/* Text Container */}
             <div className="w-full lg:w-1/2 flex flex-col justify-center text-center lg:text-left px-4 sm:px-8">
                 <p className="text-xs lg:text-sm text-gray-500 font-semibold pb-3">About</p>
                 <h1 className="text-3xl sm:text-4xl tracking-tight font-bold mb-6">About Me</h1>

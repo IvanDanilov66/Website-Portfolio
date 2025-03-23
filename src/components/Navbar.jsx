@@ -8,12 +8,12 @@ export default function Navbar() {
 
     return (
         <nav className="w-full p-4 flex items-center justify-between sticky top-0 left-0 bg-white shadow-md z-50">
-            <Link to="hero" smooth={true} duration={500} className="cursor-pointer">
+            <Link to="home" smooth={true} duration={500} className="cursor-pointer">
                 <img src={logo} alt="Logo" className="w-auto ml-5 md:ml-10 h-10" />
             </Link>
 
             <ul className="hidden md:flex space-x-6 text-black mr-10">
-                {["Hero", "Expertise", "About", "Portfolio"].map((section, index) => (
+                {["Home", "Expertise", "About", "Portfolio"].map((section, index) => (
                     <li key={index}>
                         <Link
                             to={section.toLowerCase()}
@@ -48,7 +48,7 @@ export default function Navbar() {
                     isOpen ? "translate-x-0" : "translate-x-full"
                 }`}
             >
-                {["Hero", "Expertise", "About", "Portfolio", "Contact"].map((section, index) => (
+                {["Home", "Expertise", "About", "Portfolio", "Contact"].map((section, index) => (
                     <Link
                         key={index}
                         to={section.toLowerCase()}

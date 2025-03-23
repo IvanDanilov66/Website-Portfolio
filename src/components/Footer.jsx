@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <footer className="w-full p-4 flex justify-between text-black bg-blue-400/10">
             <Link
-                to="hero"
+                to="home"
                 smooth={true}
                 duration={500}
                 className="cursor-pointer"
@@ -14,17 +14,17 @@ export default function Footer() {
                 <img src={logo} alt="Logo" className="w-auto ml-10 h-10" />
             </Link>
 
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 items-center">
                 <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-purple-500 text-xl hover:text-purple-700">
                     <FaInstagram />
                 </a>
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-purple-500 text-xl hover:text-purple-700">
                     <FaFacebookF />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-purple-500 text-xl hover:text-purple-700">
+                <a href="https://www.linkedin.com/in/ivan-danilov-91899320b/" target="_blank" rel="noopener noreferrer" className="text-purple-500 text-xl hover:text-purple-700">
                     <FaLinkedinIn />
                 </a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-purple-500 text-xl hover:text-purple-700">
+                <a href="https://github.com/IvanDanilov66" target="_blank" rel="noopener noreferrer" className="text-purple-500 text-xl hover:text-purple-700">
                     <FaGithub />
                 </a>
             </div>

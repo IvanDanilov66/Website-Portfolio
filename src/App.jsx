@@ -12,7 +12,7 @@ function App() {
     return (
         <>
             <Navbar/>
-            <div id="hero"><Hero/></div>
+            <div id="home"><Hero/></div>
             <div id="expertise"><Expertise/></div>
             <div id="about"><AboutMe/></div>
             <div id="portfolio"><Projects/></div>
