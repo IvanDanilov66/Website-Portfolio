@@ -47,7 +47,7 @@ export default function Hero() {
     }, [displayedText, isDeleting, roleIndex, currentRole]);
 
     return (
-        <div className="w-full min-h-screen flex flex-col lg:flex-row items-center px-6 md:px-12 lg:px-20 py-20 bg-blue-400/10">
+        <div className="w-full flex flex-col lg:flex-row items-center px-6 md:px-12 lg:px-20 py-24 bg-blue-400/10">
             <div className="w-full max-w-3xl text-center lg:text-left pb-12 lg:pb-0">
                 <p className="text-xs lg:text-sm text-gray-500 font-semibold pb-3">Hey, I am Ivan</p>
                 <h1 className="text-3xl md:text-4xl tracking-tight font-bold mb-6 min-h-[60px]">

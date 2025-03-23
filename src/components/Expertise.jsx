@@ -28,11 +28,11 @@ export default function Expertise(){
 
     return (
         <div className="mx-auto text-center px-6 md:px-12 lg:px-20 py-20">
-            <div className="flex flex-col items-start">
+            <div className="flex flex-col lg:items-start items-center">
             <p className="text-xs lg:text-sm text-gray-500 font-semibold pb-3">My skills</p>
             <h1 className="text-4xl tracking-tight font-bold mb-8">My Expertise</h1>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
+            <div className="flex flex-col lg:flex-row justify-evenly items-center gap-10">
                 {skills.map((skill, index) => (
                     <Card key={index} {...skill}  />
                 ))}

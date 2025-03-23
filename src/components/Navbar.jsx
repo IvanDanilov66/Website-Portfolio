@@ -44,8 +44,8 @@ export default function Navbar() {
             </button>
 
             <div
-                className={`fixed top-0 left-0 w-full h-screen bg-white flex flex-col items-center justify-center space-y-6 text-lg transition-transform duration-300 ${
-                    isOpen ? "translate-x-0" : "-translate-x-full"
+                className={`fixed top-0 right-0 w-64 h-full bg-white shadow-lg flex flex-col items-center justify-start space-y-6 py-20 text-lg transition-transform duration-300 ${
+                    isOpen ? "translate-x-0" : "translate-x-full"
                 }`}
             >
                 {["Hero", "Expertise", "About", "Portfolio", "Contact"].map((section, index) => (

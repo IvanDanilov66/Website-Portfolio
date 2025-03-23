@@ -2,6 +2,7 @@ import React from "react";
 
 export default function ProjectCard({ image, title, description,link }) {
     return (
+        <div className="w-[50%] lg:w-full">
         <a
             href={link}
             target="_blank"
@@ -19,5 +20,6 @@ export default function ProjectCard({ image, title, description,link }) {
                 <p className="text-gray-600 mb-4">{description}</p>
             </div>
         </a>
+        </div>
     );
 }
