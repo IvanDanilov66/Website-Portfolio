@@ -1,33 +1,34 @@
 import React from "react";
 import fitness from "../assets/fitness-tracker.webp";
 import calculator from "../assets/investment-calculator.webp";
-// import portfolio from "../assets/portfolio.webp";
+import portfolio from "../assets/website-portfolio.png";
+import flutter from "../assets/flutter.png";
 import ProjectCard from "./ProjectCard.jsx";
 
 const projects = [
     {
         title: "Fitness-Tracker",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+        description: "Full-stack fitness tracker for logging workouts and meals, with progress analysis. Built with React, Spring Boot, MySQL, and secured with JWT authentication.",
         image: fitness,
-        link: "#"
+        link: "https://github.com/IvanDanilov66/Fitness-Tracker"
     },
     {
         title: "Investment Calculator",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+        description: "React app that calculates investment growth with yearly breakdowns based on user inputs. Shows total contributions, interest earned, and portfolio value.",
         image: calculator,
-        link: "#"
+        link: "https://github.com/IvanDanilov66/Investment-Calculator"
     },
     {
         title: "FiTest Mobile App",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-        image: fitness,
-        link: "#"
+        description: "Interactive quiz app where users answer questions and receive a score. Built with Firebase for data handling, and integrates Google Maps and camera functionality.",
+        image: flutter,
+        link: "https://github.com/IvanDanilov66/Mobilna-Aplikacija-FiTest"
     },
     {
         title: "Website Portfolio",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-        image: fitness,
-        link: "#"
+        description: "Responsive portfolio site built with React to showcase projects, skills, and experience. Features clean design, smooth navigation, and downloadable resume.",
+        image: portfolio,
+        link: "https://github.com/IvanDanilov66/Website-Portfolio"
     }
 
 ];
